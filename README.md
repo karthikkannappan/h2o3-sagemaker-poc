@@ -1,1 +1,5 @@
 # h2o3-sagemaker-poc
+
+This is a proof of concept H2o3 AutoML integration with Amazon SageMaker. Most of the code is adapted from [https://github.com/awslabs/amazon-sagemaker-examples/tree/master/advanced_functionality/scikit\_bring\_your\_own/container](https://github.com/awslabs/amazon-sagemaker-examples/tree/master/advanced_functionality/scikit_bring_your_own/container) and customized to support H2o3 AutoML. It's highly recommended that you read the docs on that repository first. 
+
+The training and testing data used in this example are from the UCI machine learning repository and are at [https://archive.ics.uci.edu/ml/machine-learning-databases/adult/](https://archive.ics.uci.edu/ml/machine-learning-databases/adult/) .This dataset contains a bunch of features such as a person's age, marital status etc, and we're writing a binary classifier to determine whether the person's income is <= 50K, or if it's > 50K. 
